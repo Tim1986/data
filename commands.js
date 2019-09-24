@@ -2,7 +2,7 @@ mongoexport -h ds211368.mlab.com:11368 -d heroku_7k8rf6zz -c akronohio -u dreamt
 mongoexport -h ds211368.mlab.com:11368 -d heroku_7k8rf6zz -c albanygeorgia -u dreamteam -p getgudjawbs4 -o albanygeorgia.json
 mongoexport -h ds211368.mlab.com:11368 -d heroku_7k8rf6zz -c albanynewyork -u dreamteam -p getgudjawbs4 -o albanynewyork.json
 
-mongoexport -h ds211368.mlab.com:11368 -d heroku_7k8rf6zz -c akronohio -u dreamteam -p getgudjawbs4 -o akronohio.json
+mongoexport -h ds211368.mlab.com:11368 -d heroku_7k8rf6zz -c albuquerquenewmexico -u dreamteam -p getgudjawbs4 -o albuquerquenewmexico.json
 mongoexport -h ds211368.mlab.com:11368 -d heroku_7k8rf6zz -c akronohio -u dreamteam -p getgudjawbs4 -o akronohio.json
 mongoexport -h ds211368.mlab.com:11368 -d heroku_7k8rf6zz -c akronohio -u dreamteam -p getgudjawbs4 -o akronohio.json
 mongoexport -h ds211368.mlab.com:11368 -d heroku_7k8rf6zz -c akronohio -u dreamteam -p getgudjawbs4 -o akronohio.json
