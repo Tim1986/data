@@ -1,3 +1,19 @@
+// mongoexport -h ds211368.mlab.com:11368 -d heroku_7k8rf6zz -c torrancecalifornia -u dreamteam -p getgudjawbs4 -o torrancecalifornia.json
 
+const birminghamALArtists = require("./birminghamalabama.js")
 
-// mongoexport -h ds211368.mlab.com:11368 -d heroku_7k8rf6zz -c lowellmasschusetts -u dreamteam -p getgudjawbs4 -o lowellmasschusetts.json
+const restructure = artistArray => {
+    let newArray = []
+    for (let i = 0; i < artistArray.length; i++) {
+        artistArray[i] = {
+            artist: artistArray[i].artist,
+            spotifyID: artistArray[i].spotifyID,
+            popularity: artistArray[i].popularity
+        }
+        newArray.push(artistArray[i])
+    }
+    return newArray
+}
+console.log(restructure(birminghamALArtists))
+
+module.exports = restructure
